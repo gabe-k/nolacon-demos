@@ -1,0 +1,28 @@
+code
+	arg_count 0
+	n_locals 0
+	stack_size 1
+	flags 64
+	consts 2
+		string "Hello NolaCon"
+		none
+	end
+	names 0
+	end
+	varnames 0
+	end
+	freevars 0
+	end
+	cellvars 0
+	end
+	instructions
+		LOAD_CONST 0
+		PRINT_ITEM 
+		PRINT_NEWLINE 
+		LOAD_CONST 1
+		RETURN_VALUE 
+	end
+	name "<module>"
+	filename "hello_world.py"
+	lnotab ""
+end

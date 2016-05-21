@@ -1,0 +1,20 @@
+code
+	n_locals 1
+	consts 2
+		string "Hi there"
+		none
+	end
+	varnames 1
+		string ""
+	end
+	instructions
+		LOAD_CONST 0
+		STORE_FAST 0 # Store string in fastlocals[0]
+		EXTENDED_ARG 0xFFFF
+		LOAD_CLOSURE 0xFFFF # Load freevars[-1]
+		PRINT_ITEM
+		PRINT_NEWLINE
+		LOAD_CONST 1
+		RETURN_VALUE
+	end
+end

@@ -1,0 +1,14 @@
+code
+	flags 0x40
+	consts 2
+		string "hello forever"
+		none
+	end
+	instructions
+		LOAD_CONST 0
+		PRINT_ITEM
+		PRINT_NEWLINE
+		EXTENDED_ARG 0xFFFF
+		JUMP_FORWARD 0xFFF5
+	end
+end

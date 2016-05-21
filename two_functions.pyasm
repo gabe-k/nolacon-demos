@@ -1,0 +1,94 @@
+code
+	arg_count 0
+	n_locals 0
+	stack_size 1
+	flags 64
+	consts 3
+		code
+			arg_count 0
+			n_locals 0
+			stack_size 1
+			flags 67
+			consts 2
+				none
+				string "Hello! I'm the first function"
+			end
+			names 0
+			end
+			varnames 0
+			end
+			freevars 0
+			end
+			cellvars 0
+			end
+			instructions
+				LOAD_CONST 1
+				PRINT_ITEM 
+				PRINT_NEWLINE 
+				LOAD_CONST 0
+				RETURN_VALUE 
+			end
+			name ""
+			filename "two_functions.py"
+			lnotab "\x00\x01"
+		end
+		code
+			arg_count 0
+			n_locals 0
+			stack_size 1
+			flags 67
+			consts 2
+				none
+				string "whats up, im the second function"
+			end
+			names 0
+			end
+			varnames 0
+			end
+			freevars 0
+			end
+			cellvars 0
+			end
+			instructions
+				LOAD_CONST 1
+				PRINT_ITEM 
+				PRINT_NEWLINE 
+				LOAD_CONST 0
+				RETURN_VALUE 
+			end
+			name ""
+			filename "two_functions.py"
+			lnotab "\x00\x01"
+		end
+		none
+	end
+	names 2
+		string ""
+		string " "
+	end
+	varnames 0
+	end
+	freevars 0
+	end
+	cellvars 0
+	end
+	instructions
+		LOAD_CONST 0
+		MAKE_FUNCTION 0
+		STORE_NAME 0
+		LOAD_CONST 1
+		MAKE_FUNCTION 0
+		STORE_NAME 1
+		LOAD_NAME 0
+		CALL_FUNCTION 0
+		POP_TOP 
+		LOAD_NAME 1
+		CALL_FUNCTION 0
+		POP_TOP 
+		LOAD_CONST 2
+		RETURN_VALUE 
+	end
+	name "<module>"
+	filename "two_functions.py"
+	lnotab "\t\x03\t\x03\x07\x01"
+end
